@@ -13,14 +13,41 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMUe7b7IDWqaNle0U+4/VU6EU/5x1JXDqGbY5kN" crossorigin="anonymous">
+
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#" style="margin-left:1%;">
-            <img src="assets/Images/bamboo_logo.ico" alt="TEKHAT Logo" class="d-inline-block align-top" height="50">
-        </a>
+        <div class="container-fluid">
+            <!-- Logo and Title -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="assets/Images/bamboo_logo.ico" alt="TEKHAT Logo" class="d-inline-block align-top" height="50">
+                <span style="margin-left: 10px;">TEKHAT</span>
+            </a>
+
+            <!-- Collapsible Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- Nav Items on the Left Side -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bamboo-section">Bamboo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <!-- Main -->
@@ -40,15 +67,15 @@
         <div class="tekhat-overview">
             <div class="row" id="overview-section">
                 <div class="col-lg-8" id="overview-subbody">
-                    <div class="row" id="section-title"><h3>Ambitions</h3></div>
-                    <div class="row" id="section-title">
+                    <div class="row" id="section-title"><h3>Bamboo Empowerment</h3></div>
+                    <!-- <div class="row" id="section-title">
                         <p>Sustainable farming and product manufacturing is our business.<br>
                            Sustainable growth and development is our ambition.
                         </p>
-                    </div>
+                    </div> -->
 
                     <div class="row" id="section-body-1">
-                        <img class="farmer-image" src="assets/Images/person-farming.png"/>
+                        <img class="overview-image" src="assets/Images/person-farming.png"/>
                         <div class="col" id="section-body-text">
                             <p><strong>Communal Empowerment</strong><br>
                             We aim to improve local livelihoods and diversify the local communities using bamboo farming. Driving this as a means of
@@ -60,18 +87,22 @@
                     
                     <div class="row" id="section-body-1">
                         <div class="col" id="section-body-text">
-                            <p><strong>Conserving Indegenious Bamboo</strong><br>
-                            Creating sustainable bamboo products such as furniture, crafts, and construction materials to support local economies and reduce the reliance on harmful alternatives.
+                            <p><strong>Conserving Indegenous Bamboo</strong><br>
+                                In our efforts to distribute and encourage the growth of the bamboo, we are pushing more for the growth of the indigenous variant. This is to conserve 
+                                the local variant and create a ready market and need to grow this variant. This is also helping in the regreening of areas that had lost their bamboo cover especially around 
+                                the Mau forest region in Kenya 
                             </p>
                         </div>
-                        <img class="farmer-image" src="assets/Images/framed-bamboo.png"/>
+                        <img class="overview-image" src="assets/Images/framed-bamboo.png"/>
                     </div>
                     
                     <div class="row" id="section-body-1">
-                        <img class="farmer-image" src="assets/Images/bamboo-furniture.png"/>
+                        <img class="overview-image" src="assets/Images/bamboo-furniture.png"/>
                         <div class="col" id="section-body-text">
-                            <p><strong>Environmental Conservation</strong><br>
-                            Using bamboo for reforestation and soil conservation helps combat climate change, restore natural ecosystems, and provide a sustainable source of income for local communities.
+                            <p><strong>Value addition on local products</strong><br>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                             </p>
                         </div>
                     </div>
@@ -81,6 +112,117 @@
 
         <div class="information-point">
             <!-- Add general information or partner links here -->
+            <div class="information-point-sub">
+                <div class="row" id="overview-section">
+                    <div class="col-lg-8" id="overview-subbody">
+                        <div class="row" id="section-title"><h3>Why Bamboo?</h3></div>
+
+
+                        <div class="row" id="section-body-1">
+                            <img class="overview-image" src="assets/Images/smiling-forestor.png"/>
+                            <div class="col" id="section-body-text">
+                                <p><strong>Economic Value</strong><br>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                    nd more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="row" id="section-body-1">
+                            <div class="col" id="section-body-text">
+                                <p><strong>Potential Market Value</strong><br>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                    nd more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                                </p>
+                            </div>
+                            <img class="overview-image" src="assets/Images/bamboo-baskets.png"/>
+                        </div>
+                        
+                        <div class="row" id="section-body-1">
+                            <img class="overview-image" src="assets/Images/growing-bamboo.png"/>
+                            <div class="col" id="section-body-text">
+                                <p><strong>Ecological & Environmental Value</strong><br>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                    nd more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-us">
+            <!-- Add general information or partner links here -->
+            <div class="information-point-sub">
+                <div class="row" id="overview-section">
+                    <div class="col-lg-8" id="overview-subbody">
+                        <div class="row" id="section-title"><h3>About Us</h3></div>
+
+                        <div class="row" style="justify-content: center;"><img class="overview-image" src="assets/Images/smiling-forestor.png"/></div>
+                        <div class="row" style="justify-content: center; text-align: center;"><h3>Laura Koeach</h3></div>
+                        <br>
+                        <p style="text-align: center;"><strong>Write a strong bio here, if you have a larger team I can include everyone</strong><br>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                            nd more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-us">
+            <!-- Add general information or partner links here -->
+            <div class="information-point-sub">
+                <div class="row" id="overview-section">
+                    <div class="col-lg-8" id="overview-subbody">
+                        <div class="row" id="section-title"><h3>Contact Us</h3></div>
+
+                        <div class="row" style="justify-content: center; margin-top: 2%;">
+                            <!-- whatsapp -->
+                            <div class="col-lg-4" style="display: flex; justify-content: center; align-items: center;">
+                                <a href="#" style="margin: 20px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100px" height="100px" fill="#343a40">
+                                        <path d="M12.04 0C5.45 0 .04 5.4.04 12c0 2.12.55 4.17 1.61 6l-1.68 6.12 6.33-1.66c1.75 1 3.74 1.53 5.75 1.53 6.58 0 12-5.4 12-12s-5.4-12-12-12zm-.04 20c-1.72 0-3.39-.45-4.87-1.3l-3.57.94.94-3.49C3.3 15.34 3 13.71 3 12c0-4.97 4-9 9-9s9 4.03 9 9-4 9-9 9zm4.7-6.88c-.25-.12-1.48-.73-1.7-.81-.23-.07-.4-.12-.58.13-.17.24-.67.8-.82.96-.15.16-.3.18-.55.06-.25-.12-1.05-.38-2-1.21-.74-.66-1.23-1.48-1.37-1.73-.15-.26-.02-.4.11-.52.11-.1.26-.28.38-.42.12-.14.16-.23.24-.39.07-.13.04-.3-.01-.42-.06-.12-.58-1.42-.8-1.96-.21-.5-.43-.43-.58-.44h-.5c-.16 0-.4.06-.6.28-.19.21-.78.76-.78 1.86s.8 2.16.9 2.31c.12.16 1.57 2.4 3.81 3.38.53.23.95.36 1.28.46.54.17 1.02.14 1.4.08.42-.06 1.48-.6 1.7-1.17.21-.57.21-1.06.15-1.17-.05-.1-.23-.16-.48-.27z"/>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <!-- instagram -->
+                            <div class="col-lg-4" style="display: flex; justify-content: center; align-items: center;">
+                                <a href="#" style="margin: 20px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100px" height="100px" fill="#343a40">
+                                        <path d="M12 0c3.3 0 3.7 0 5 .1 1.2.1 2 .2 2.6.4.6.2 1.2.5 1.7 1 .5.5.8 1 1 1.6.2.6.3 1.4.4 2.6C23.9 8.3 24 8.7 24 12s0 3.7-.1 5c-.1 1.2-.2 2-.4 2.6-.2.6-.5 1.2-1 1.7-.5.5-1 1-1.6 1-.6.2-1.4.3-2.6.4-1.3.1-1.7.1-5 .1s-3.7 0-5-.1c-1.2-.1-2-.2-2.6-.4-.6-.2-1.2-.5-1.7-1-.5-.5-1-1-1-1.6-.2-.6-.3-1.4-.4-2.6C.1 15.7 0 15.3 0 12s0-3.7.1-5c.1-1.2.2-2 .4-2.6.2-.6.5-1.2 1-1.7.5-.5 1-1 1.6-1 .6-.2 1.4-.3 2.6-.4C8.3.1 8.7 0 12 0zm0 2.2c-3.3 0-3.6 0-4.9.1-1.1.1-1.7.2-2 .4-.5.2-.9.4-1.3.8-.4.4-.6.8-.8 1.3-.2.4-.3 1-.4 2-.1 1.2-.1 1.6-.1 4.9 0 3.3 0 3.6.1 4.9.1 1.1.2 1.7.4 2 .2.5.4.9.8 1.3.4.4.8.6 1.3.8.4.2 1 .3 2 .4 1.2.1 1.6.1 4.9.1s3.6 0 4.9-.1c1.1-.1 1.7-.2 2-.4.5-.2.9-.4 1.3-.8.4-.4.6-.8.8-1.3.2-.4.3-1 .4-2 .1-1.2.1-1.6.1-4.9 0-3.3 0-3.6-.1-4.9-.1-1.1-.2-1.7-.4-2-.2-.5-.4-.9-.8-1.3-.4-.4-.8-.6-1.3-.8-.4-.2-1-.3-2-.4-1.2-.1-1.6-.1-4.9-.1zm0 4.3a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zm0 1.7a3.8 3.8 0 1 0 0 7.7 3.8 3.8 0 0 0 0-7.7zm6.8-1.4a1.3 1.3 0 1 1 0 2.7 1.3 1.3 0 0 1 0-2.7z"/>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <!-- youtube -->
+                            <div class="col-lg-4" style="display: flex; justify-content: center; align-items: center;">
+                                <a href="#" style="margin: 20px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100px" height="100px" fill="#343a40">
+                                        <path d="M23.5 6.2a3.01 3.01 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5c-.9.2-1.7.9-2.1 1.8C0 7.4 0 12 0 12s0 4.6.5 5.8a3.01 3.01 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3.01 3.01 0 0 0 2.1-2.1C24 16.6 24 12 24 12s0-4.6-.5-5.8zM9.8 15.3V8.7L16 12l-6.2 3.3z"/>
+                                    </svg>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -92,21 +234,26 @@
         window.addEventListener('scroll', function() {
             const topBox = document.querySelector('.top-main');
             const overviewBox = document.querySelector('.tekhat-overview');
+            const informationBox = document.querySelector('.information-point');
             const scrollY = window.scrollY;
             
             // Define the maximum and minimum height for both sections
             const maxTopHeight = 100; // in vh
             const minTopHeight = 30; // in vh
-            const maxOverviewHeight = 100; // in vh
-            const minOverviewHeight = 40; // in vh
+            const maxOverviewHeight = 110; // in vh
+            const minOverviewHeight = 30; // in vh
+            const maxInformationBox = 130; // in vh
+            const minInformationBox = 30; // in vh
 
             // Calculate new height based on scroll position for both sections
             const newTopHeight = Math.max(minTopHeight, maxTopHeight - scrollY * 0.1);
             const newOverviewHeight = Math.max(minOverviewHeight, maxOverviewHeight - (scrollY - 500) * 0.05);
+            const newInformationBox = Math.max(maxInformationBox, minInformationBox - (scrollY - 500) * 0.05);
 
             // Apply the new height to both sections
             topBox.style.height = newTopHeight + 'vh';
             overviewBox.style.height = newOverviewHeight + 'vh';
+            informationBox.style.height = newInformationBox + 'vh';
         });
     </script>
 </body>
